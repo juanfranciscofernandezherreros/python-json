@@ -1,0 +1,92 @@
+{
+    "projectName": "fixtures-q",
+    "targetDirectory": "fixtures-q",
+    "username": "xxxx",
+    "newBranchName": "feature/XXXXX",
+    "packageName": "com.example.fixtures",
+    "appClassName": "FixturesApplication",
+    "entityName": "Fixtures",
+    "repositoryName": "FixturesRepository",
+    "serviceName": "FixturesService",
+    "controllerName": "FixturesController",
+    "exceptionName": "ResourceNotFoundException",
+    "exceptionNameBadRequest": "BadRequestException",
+    "handlerName": "GlobalExceptionHandler",
+    "dtoName": "FixturesDto",
+    "mapperName": "FixturesMapper",
+    "entityFields": [
+        {
+            "type": "long",
+            "name": "id",
+            "nameEntity": "id",
+            "isPrimaryKey": "Y",
+            "isNotNull": "Y",
+            "columnName": "id"
+        },
+        {
+            "type": "String",
+            "name": "awayteam",
+            "nameEntity": "awayteam",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "away_team"
+        },
+        {
+            "type": "String",
+            "name": "competition",
+            "nameEntity": "competition",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "competition"
+        },
+        {
+            "type": "String",
+            "name": "country",
+            "nameEntity": "country",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "country"
+        },
+        {
+            "type": "String",
+            "name": "datefile",
+            "nameEntity": "datefile",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "date_file"
+        },
+        {
+            "type": "String",
+            "name": "eventtime",
+            "nameEntity": "eventtime",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "event_time"
+        },
+        {
+            "type": "String",
+            "name": "hometeam",
+            "nameEntity": "hometeam",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "home_team"
+        },
+        {
+            "type": "String",
+            "name": "matchid",
+            "nameEntity": "matchid",
+            "isPrimaryKey": "N",
+            "isNotNull": "N",
+            "columnName": "match_id"
+        }
+    ],
+    "tableName": "FIXTURES",
+    "urlName": "fixtures",
+    "findByKeys": "find",
+    "search": "search",
+    "databaseConfig": {
+        "username": "sa",
+        "password": "",
+        "host": "jdbc:h2:mem:testdb"
+    }
+}
